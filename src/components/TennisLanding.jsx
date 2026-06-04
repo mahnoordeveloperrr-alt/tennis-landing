@@ -18,15 +18,15 @@ function TennisLanding() {
 
   // Data for sports events
   const sportsEventsData = [
-    { title: "Online Tennis Challenge", img: "/img/22.webp", tags: [] },
+    { title: "Online Tennis Challenge", img: "./img/22.webp", tags: [] },
     {
       title: "Youth Tennis Camp — 20yo",
-      img: "/img/16.jpg",
+      img: "./img/16.jpg",
       tags: ["Coach & Trainer", "Solid Community", "Tennis Kit"],
     },
-    { title: "Grand Slam Viewing Party", img: "/img/14.webp", tags: [] },
-    { title: "Tennis x Game Day", img: "/img/12.webp", tags: [] },
-    { title: "Pro Trainer Meet & Greet", img: "/img/13.webp", tags: [] },
+    { title: "Grand Slam Viewing Party", img: "./img/14.webp", tags: [] },
+    { title: "Tennis x Game Day", img: "./img/12.webp", tags: [] },
+    { title: "Pro Trainer Meet & Greet", img: "./img/13.webp", tags: [] },
   ];
 
   // Accordion data
@@ -80,14 +80,14 @@ function TennisLanding() {
           </div>
         </div>
         <div className="hero-big-text">TennisX</div>
-        <img className="hero-ball" src="/img/2.png" alt="tennis ball" />
+        <img className="hero-ball" src="./img/2.png" alt="tennis ball" />
       </section>
 
       {/* ==================== FIRST SECTION ==================== */}
       <div className="first-section">
         <div className="left-card">
           <div className="top-tag"><span></span> THE BENEFIT</div>
-          <h1>Explore <img src="/img/2.png" className="title-img" alt="tennis" /> our flexible tennis activity.</h1>
+          <h1>Explore <img src="./img/2.png" className="title-img" alt="tennis" /> our flexible tennis activity.</h1>
           <div className="tags-row">
             <div className="tag-pill">🎾 Pre-Match Nutrition</div>
             <div className="tag-pill">🎾 Tennis Apparel</div>
@@ -116,7 +116,7 @@ function TennisLanding() {
             <button className="join-btn">Join Now <div className="btn-circle">→</div></button>
           </div>
           <div className="image-box">
-            <img src="/img/21.webp" alt="tennis" className="main-img" />
+            <img src="./img/21.webp" alt="tennis" className="main-img" />
             <div className="sale">February Sale</div>
             <div className="overlay-card">
               <small>Tennis Outdoor</small>
@@ -135,7 +135,7 @@ function TennisLanding() {
           <div className="program-label">THE PROGRAM</div>
         </div>
         <div className="heading-section">
-          <div className="heading-lg">Elevate your <img src="/img/1.jpg" className="heading-img" alt="tennis" /> experience <br /> with handpicked tennis.</div>
+          <div className="heading-lg">Elevate your <img src="./img/1.jpg" className="heading-img" alt="tennis" /> experience <br /> with handpicked tennis.</div>
           <div className="right-text">Your tennis journey starts right here with us and the crew.</div>
         </div>
         <div className="cards-grid">
@@ -152,7 +152,7 @@ function TennisLanding() {
             <div className="card-footer"><span>Live</span><div className="site-btn">orangeer.com</div></div>
           </div>
           <div className="image-card">
-            <img src="/img/2.webp" alt="tennis" />
+            <img src="./img/2.webp" alt="tennis" />
             <div className="overlay-dark">
               <div className="member-box"><h3>2.88k</h3><p>Membership</p></div>
               <div className="bottom-content"><h2>Tennis Match <br /> Partner</h2><span>NEW YORK, US</span></div>
@@ -164,7 +164,7 @@ function TennisLanding() {
       {/* ==================== THIRD SECTION ==================== */}
       <div className="third-section">
         <div className="activity-left-box">
-          <img src="/img/5.webp" alt="tennis court" />
+          <img src="./img/5.webp" alt="tennis court" />
           <div className="activity-floating-card">
             <div className="activity-card-top">
               <div className="activity-label"><div className="activity-dot"></div> Activity</div>
@@ -188,7 +188,7 @@ function TennisLanding() {
         </div>
         <div className="activity-right-box">
           <div className="activity-small-title">FEATURED FEATURES</div>
-          <div className="activity-heading">Stay motivated with <br /> activity <img src="/img/2.webp" className="activity-heading-img" alt="activity" /> tracking.</div>
+          <div className="activity-heading">Stay motivated with <br /> activity <img src="./img/2.webp" className="activity-heading-img" alt="activity" /> tracking.</div>
           <div className="activity-icons-row">
             <div className="activity-icon-sm">⌘</div>
             <div className="activity-icon-sm">♔</div>
@@ -203,7 +203,7 @@ function TennisLanding() {
               <div className="activity-explore">EXPLORE <br /> MORE</div>
             </div>
             <div className="activity-small-card">
-              <img src="/img/7.webp" alt="tennis" />
+              <img src="./img/7.webp" alt="tennis" />
               <div className="activity-small-overlay">
                 <div className="activity-year">• 2025</div>
                 <div className="activity-view-btn">View More</div>
